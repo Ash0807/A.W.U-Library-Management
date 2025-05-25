@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Central Library, Assam Women's University</title>
+   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="C:\Users\asus\Desktop\AWU Library\Images\assam.png" type="image/x-icon">
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="main-header">
+  <div class="header-flex">
+   <a href="https://awu.ac.in/" target="_blank">
+  <img src="C:\Users\asus\Desktop\AWU Library\Images\logo.png" alt="AWU Logo" class="logo" />
+</a>
+    <div class="library-text">
+      <h2> Library</h2>
+      <p>পুথিভঁৰাল</p>
+      <p>पुस्तकालय</p>
+    </div>
+  </div>
+</header>
+
+
+<!-- Navbar -->
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#Link">Important Link</a></li>
+    <li><a href="https://drive.google.com/file/d/1M9zYmT2d1Pg2cxwjE-GxfycM5mtI3F2a">Rules</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+  </ul>
+  <a href="#contact" class="contact-btn">Contact us</a>
+</nav>
+
+
+<!-- Search Section -->
+<div class="top-nav">
+  <div class="nav-left">
+    <button class="nav-btn">OPAC</button>
+  </div>
+  <div class="nav-center">
+    <select class="search-select">
+      <option>Library catalog</option>
+      <option>Books</option>
+      <option>Journals</option>
+    </select>
+    <input type="text" class="search-input" placeholder="Search the catalog..." />
+    <button class="search-btn">🔍</button>
+  </div>
+  <div class="nav-right">
+    <button class="nav-btn">KOHA</button>
+  </div>
+</div>
+
+
+<!-- Welcome Section -->
+<section id="home" section class="library-section">
+  <h2 class="library-heading">WELCOME TO LIBRARY</h2>
+  <div class="library-content">
+    <div class="library-image">
+      <img src="awu.gif" alt="Central Library Photo" />
+    </div>
+    <div class="library-description">
+<p> The Library of Assam Women’s University was founded in 2014 and began operating in 2015. Starting small, it has grown into a valuable center for learning and research. Committed to empowering women through education, the library provides diverse resources and a supportive study environment.</p>
+<p> Over time, it has expanded its services, integrating modern facilities and digital tools. With active participation from students and faculty, it fosters academic excellence, encourages research, and supports intellectual growth. Hence the importance of the Library stands unquestioned in the context of women’s education, learning and knowledge of this region. </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2 class="gallery-heading">GALLERY</h2>
+  <h3 class="gall-heading">Library Photos</h3>
+  <div class="gallery-grid">
+    <img src="C:\Users\asus\Desktop\AWU Library\Images\1.jpeg" alt="Event Photo 1">
+    <img src="C:\Users\asus\Desktop\AWU Library\Images\2.jpeg" alt="Event Photo 2">
+    <img src="C:\Users\asus\Desktop\AWU Library\Images\3.jpeg" alt="Event Photo 3">
+    <img src="C:\Users\asus\Desktop\AWU Library\Images\4.jpeg" alt="Event Photo 4">
+    <img src="C:\Users\asus\Desktop\AWU Library\Images\5.jpeg" alt="Event Photo 5">
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+   <h2 class="gallery-heading">Contact us</h2>
+  <div class="contact-container">
+    <div class="contact-info">
+      <h2>Send us a message 📧</h2>
+      <p>Feel free to reach out through contact form or find our contact information below...</p>
+      <p>📧 registrar@awu.ac.in</p>
+      <p>📞 0376 2960104</p>
+      <p>📍 Assam Women's University Jamuguri, Jorhat, <br>Assam - 785004, India</p>
+    </div>
+    <div class="contact-form">
+      <h3>Get in Touch</h3>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Your Mobile Number">
+        <textarea placeholder="Your Query"></textarea>
+        <button type="submit">Submit now →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Link Section -->
+<div id="Link" class="scrolling-links">
+  <h2 class="gallery-heading">Important Links</h2>
+    <div class="scrolling-links">
+  <div class="scroll-content">
+   <a href="https://nlist.inflibnet.ac.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-1.png" /></a>
+<a href="https://delnet.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-2.png" /></a>
+<a href="https://www.education.gov.in" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-3.png" /></a>
+<a href="https://eacharya.inflibnet.ac.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-4.png" /></a>
+<a href="https://epgp.inflibnet.ac.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-5.png" /></a>
+<a href="https://www.jstor.org/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-6.png" /></a>
+<a href="https://nptel.ac.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-7.png" /></a>
+<a href="https://shodhganga.inflibnet.ac.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-8.png" /></a>
+<a href="https://ndl.iitkgp.ac.in/" target="_blank"><img src="C:\Users\asus\Desktop\AWU Library\Images\logo-9.png" /></a>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="imageModal" class="modal">
+  <img id="modalImage" src="" alt="">
+</div>
+<script>
+  function performSearch() {
+    const type = document.getElementById('search-type').value;
+    const input = document.getElementById('search-input').value;
+    alert(`Searching for ${type}: ${input}`);
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+
+    document.querySelectorAll('.gallery-grid img').forEach(img => {
+      img.addEventListener('click', () => {
+        modalImage.src = img.getAttribute('src');
+        modal.style.display = 'flex';
+      });
+    });
+
+    modal.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  });
+</script>
+
+<!-- footer -->
+<footer class="site-footer">
+  <p>
+    Copyright © 2025 Assam Women's University. All Rights Reserved.
+    Website built and maintained by Web Cell, AWU.
+  </p>
+</footer>
+</body>
+</html>
